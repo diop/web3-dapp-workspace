@@ -170,7 +170,7 @@
         <span id="list_of_compilers" class="notready">...</span>
         <br>
         <button class="btn btn-primary" id="button_do_compile" onclick="doCompileSolidityContract()">Compile Code</button><br>
-        <textarea id="sourcecode" cols="45" rows="10">
+        <textarea class="form-control" id="sourcecode" cols="45" rows="10">
   pragma solidity ^0.4.6;
   contract MyContract {
 
@@ -198,10 +198,10 @@
         <h1>Result</h1>
         <span class='notready' id='compilation_result'>...</span>
         <br><span>Bytecode</span>
-        <textarea id="compiled_bytecode" cols="40" rows="3"></textarea>
+        <textarea class="form-control" id="compiled_bytecode" cols="40" rows="3"></textarea>
         <!-- ABI Definition -->
         <br><span>ABI Definitions</span>
-        <textarea id="compiled_abidefinition" cols="40" rows="3"></textarea>
+        <textarea class="form-control" id="compiled_abidefinition" cols="40" rows="3"></textarea>
       </div>
       <!-- deploy the contract -->
       <div class="sidekick">
@@ -272,7 +272,7 @@
         <span>To Block</span><input id="to_block_filter" type="text" value="" />
         <br>
         <span>Contract Addresses (newline separated)</span>
-        <textarea id="addresses_filter" cols="40" rows="3" value=""></textarea>
+        <textarea class="form-control" id="addresses_filter" cols="40" rows="3" value=""></textarea>
         <br>
 
         <span>Topics</span>
@@ -284,7 +284,7 @@
          [2]=null but can be set to Old number as 32 byte string
          [3]=New number as 32 byte string
       -->
-        <textarea id="topics_filter" cols="40" rows="5" value="">0x108fd0bf2253f6baf35f111ba80fb5369c2e004b88e36ac8486fcee0c87e61ce
+        <textarea class="form-control" id="topics_filter" cols="40" rows="5" value="">0x108fd0bf2253f6baf35f111ba80fb5369c2e004b88e36ac8486fcee0c87e61ce
         null
         null
         0x0000000000000000000000000000000000000000000000000000000000000005
@@ -339,13 +339,13 @@
         <span><input id="contract_instance_address" type="text" size="40" value="" placeholder="Copy&amp;Paste Contract Address here." /></span>
         <br>
         <span>Indexed return values (JSON)</span>
-        <textarea id="indexed_event_values" cols="40" rows="5">
+        <textarea class="form-control" id="indexed_event_values" cols="40" rows="5">
       {
         "newNum":"0x0000000000000000000000000000000000000000000000000000000000000005"
       }
       </textarea>
         <span>Additional filters</span>
-        <textarea id="additional_filter_event_values" cols="40" rows="5">
+        <textarea class="form-control" id="additional_filter_event_values" cols="40" rows="5">
       {
         "fromBlock":"latest"
       }
