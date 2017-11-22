@@ -1,0 +1,22 @@
+{
+  "name": "web3-dapp-workspace",
+  "version": "1.0.0",
+  "description": "``` + Clone and CD to this repo + Navigate to the appropriate page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diop/web3-dapp-workspace.git"
+  },
+  "author": "Fodé Diop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diop/web3-dapp-workspace/issues"
+  },
+  "homepage": "https://github.com/diop/web3-dapp-workspace#readme",
+  "dependencies": {
+    "web3": "^1.0.0-beta.26"
+  }
+}
